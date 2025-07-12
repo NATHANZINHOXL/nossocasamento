@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nosso Amor</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Tela inicial -->
+  <div id="intro">
+    <h1 class="titulo-romantico">Comunicado de casamento</h1>
+    <img src="./src/envelope.jpg" alt="Abrir Álbum" onclick="abrirAlbum()" class="botao-imagem" />
+    <h1 class="titulo-romantico">Nathan e Nycole</h1>
+  </div>
+
+  <!-- Álbum -->
+  <div id="album" style="display: none;">
+    <h1 class="titulo-romantico">Nossa História</h1>
+    <h2>Deus mudou o teu caminho até juntares com o meu e guardou a tua vida separando-a para mim. Para onde fores, irei; onde tu repousares, repousarei. Teu Deus será o meu Deus. Teu caminho o meu será. Rute 1:16</h2>
+
+    <!-- Fotos -->
+    <div class="polaroid"><img src="./src/foto1.jpg" alt="Foto 1" /><div class="caption">Era para ser somente uma viagem, não imaginávamos que conheceríamos o amor de nossas vidas. </div></div>
+    <div class="polaroid"><img src="./src/foto2.jpg" alt="Foto 2" /><div class="caption">Fomos nos conhecendo e nossa conexão e química foram instantâneas.</div></div>
+    <div class="polaroid"><img src="./src/foto5.jpg" alt="Foto 5" /><div class="caption">Des de a primeira vez não conseguimos ficar mais longe um do outro.</div></div>
+    <div class="polaroid"><img src="./src/foto3.jpg" alt="Foto 3" /><div class="caption">Passamos por vários momentos difíceis, mas sempre apoiando um ao outro.</div></div>
+    <div class="polaroid"><img src="./src/foto4.jpg" alt="Foto 4" /><div class="caption">Eu sei que é amor verdadeiro quando olho nos seus olhos e vejo um futuro maravilhoso à nossa frente.</div></div>
+    <div class="polaroid"><img src="./src/foto6.jpg" alt="Foto 6" /><div class="caption">Você ganhou meu coração e eu o seu, mas Jesus ganhou o nosso! </div></div>
+
+    <h2>Assim, eles já não são dois, mas sim uma só carne. Portanto, o que Deus uniu, ninguém o separe. Mateus 19:6</h2>
+
+    <button onclick="mostrarPresentes()">Ajude nessa união</button>
+  </div>
+
+  <!-- Presentes -->
+  <div id="presentes" style="display: none;">
+
+    <h1 class="titulo-romantico">Lista de Presentes</h1>
+    <h2>Estamos contando com a ajuda de amigos e familiares para montar nosso enxoval de casamento, pedimos a sua ajuda para iniciar essa nova etapa em nossas vidas. Você pode escolher um item da lista ou contribuir da maneira que Deus tocar no seu coração.</h2>
+    <h3>Obs: cores de preferência do enxoval: Preto, branco e cinza.</h3>
+    <h2>Fonte da pesquisa: Shopee</h2>
+    <!-- Você pode adicionar links para Pix, lista ou imagens -->
+    
+     <!-- polaroid selected para deixar moldura verde-->
+    <div class="polaroid"><img src="./src/kit de utensilios de cozinha.jpg" alt="Foto 1" /><div class="caption">Kit de cozinha. </div></div>
+    <div class="polaroid"><img src="./src/liquidificador.jpg" alt="Foto 2" /><div class="caption">Liquidificador.</div></div>
+    <div class="polaroid"><img src="./src/talher.jpg" alt="Foto 3" /><div class="caption">jogo de talheres.</div></div>
+    <div class="polaroid"><img src="./src/garrafa de café.jpg" alt="Foto 4" /><div class="caption">Garrafa de café.</div></div>
+    <div class="polaroid"><img src="./src/jarra de suco.jpg" alt="Foto 5" /><div class="caption">Jarra de água.</div></div>
+    <div class="polaroid"><img src="./src/kit de panela.jpg" alt="Foto 6" /><div class="caption">kit de frigideira.</div></div>
+    <div class="polaroid"><img src="./src/panela de pressão.jpg" alt="Foto 7" /><div class="caption">Panela de pressão. </div></div>
+    <div class="polaroid"><img src="./src/forma de bolo.jpg" alt="Foto 8" /><div class="caption">Forma de bolo.</div></div>
+    <div class="polaroid"><img src="./src/almofada.jpg" alt="Foto 9" /><div class="caption">Almofadas.</div></div>
+    <div class="polaroid"><img src="./src/cesto de roupa.jpg" alt="Foto 10" /><div class="caption">Cesto de roupa.</div></div>
+    <div class="polaroid"><img src="./src/prato.jpg" alt="Foto 11" /><div class="caption">Prato.</div></div>
+    <div class="polaroid"><img src="./src/porta retrato.jpg" alt="Foto 12" /><div class="caption">Porta retrato.</div></div>
+    <div class="polaroid"><img src="./src/copo.jpg" alt="Foto 13" /><div class="caption">Copo. </div></div>
+    <div class="polaroid"><img src="./src/Lixeira.jpg" alt="Foto 14" /><div class="caption">Lixeira.</div></div>
+    <div class="polaroid"><img src="./src/pano de prato.jpg" alt="Foto 15" /><div class="caption">Pano de prato.</div></div>
+    <div class="polaroid"><img src="./src/Porta mantimentos.jpg" alt="Foto 16" /><div class="caption">Porta mantimentos.</div></div>
+    <div class="polaroid"><img src="./src/Porta tempeiros.jpg" alt="Foto 17" /><div class="caption">Porta tempeiros.</div></div>
+    <div class="polaroid"><img src="./src/Tábua de corte.jpg" alt="Foto 18" /><div class="caption">Tábua de corte.</div></div>
+    <div class="polaroid"><img src="./src/Ralador.jpg" alt="Foto 19" /><div class="caption">Ralador. </div></div>
+    <div class="polaroid"><img src="./src/Escorredor.jpg" alt="Foto 20" /><div class="caption">Escorredor.</div></div>
+    <div class="polaroid"><img src="./src/Prendedor.jpg" alt="Foto 21" /><div class="caption">Prendedor.</div></div>
+    <div class="polaroid"><img src="./src/varal.jpg" alt="Foto 22" /><div class="caption">varal.</div></div>
+    <div class="polaroid"><img src="./src/kit de panela1.jpg" alt="Foto 23" /><div class="caption">Kit de panela.</div></div>
+    <div class="polaroid"><img src="./src/pix.png" alt="Foto 24" /><div class="caption">Quem quiser contribuir com algum valor simbólico pix: 11965128438.</div></div>
+  
+    <h3>Caso escolha algum item da lista nos avise para identificarmos que ja ganhamos para evitar ganharmos itens repitidos.</h3>
+
+</div>
+
+  <audio id="bg-music" src="./mp3/msc.mp3" loop></audio>
+
+  <script>
+    function abrirAlbum() {
+      document.getElementById('intro').style.display = 'none';
+      document.getElementById('album').style.display = 'flex';
+      document.getElementById('presentes').style.display = 'none';
+
+      const music = document.getElementById('bg-music');
+      if (music) music.play().catch(err => console.log("Erro ao tocar música:", err));
+    }
+
+    function mostrarPresentes() {
+      document.getElementById('album').style.display = 'none';
+      document.getElementById('presentes').style.display = 'flex';
+    }
+
+    function marcarMolduraVerde(indice) {
+     const polaroids = document.querySelectorAll('.polaroid');
+      if (polaroids[indice]) {
+       polaroids[indice].classList.add('selected');
+       }
+    }
+
+  </script>
+
+</body>
+</html>
